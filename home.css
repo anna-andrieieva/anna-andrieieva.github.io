@@ -43,11 +43,6 @@
   text-align: center;
   line-height: normal;
 }
-.home-rectangle16 {
-  width: 1062px;
-  height: 1111px;
-  border-radius: 20px;
-}
 .home-yogatext {
   gap: 32px;
   display: flex;
@@ -118,11 +113,6 @@
   height: auto;
   text-align: center;
   line-height: normal;
-}
-.home-rectangle161 {
-  width: 1062px;
-  height: 579px;
-  border-radius: 20px;
 }
 .home-sneakerstext {
   gap: 32px;
@@ -1670,4 +1660,24 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+
+.moonboard {
+  transition: .3s;
+}
+
+.moonboard.no-link:hover {
+  transform: none;
+  opacity: 1;
+}
+
+.moonboard img {
+  width: 1062px;
+  border-radius: 20px;
+}
+
+.moonboard:hover {
+  transition: .3s;
+  transform: scale(1.015);
+  opacity: 0.8;
 }
